@@ -7,10 +7,11 @@
 :root {
 	--primary: white;
 	--secondary: gray;
-	--background: black;
+	--background: #4c95db;
 	--hilighter: rgb(236, 255, 66);
 
 	--titlesize: 5em;
+	--h2size: 2em;
 
 	--main-spacing: 64px;
     --gap-spacing: 40px;
@@ -23,6 +24,7 @@
 @media (max-width: 880px) {
     :root {
 		--titlesize: 3em;
+		--h2size: 1.5em;
 
         --main-spacing: 40px;
         --gap-spacing: 32px;
@@ -34,6 +36,8 @@
 @media (max-width: 550px) {
     :root {
 		--titlesize:2.5em;
+		--h2size: 1em;
+
         --main-spacing: 32px;
 		--hero-spacing: 80px;
 		--centered-width: 100%;
@@ -137,6 +141,12 @@ pre {
 	hyphens: none;
 	padding: 1em;
 	margin: .5em 0;
+}
+
+/* Typography */
+
+h2{
+	font-size: var(--h2);
 }
 
 /* Header Logo (style as h2) */
