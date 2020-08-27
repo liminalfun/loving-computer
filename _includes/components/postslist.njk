@@ -1,6 +1,7 @@
-<section>
+<section class="postslist">
 	{% for post in postslist | reverse %}
-		<article{% if post.url == url %} data-current="current item"{% endif %}>
+		<article{% if post.url == url %} data-current="current item"{% endif %} class="event">
+			<img {% if post.data.image %} src="{{post.data.image}}" {% endif %}>
 			<h3>
 				<a href="{{ post.url | url }}">
 					{% if post.data.title %}
@@ -17,7 +18,9 @@
 			{% endif %}
 			<p>
 				<time datetime="{{ post.date | machineDate }}">
-					<small>{{ post.date | readableDate }} by <a href="/authors/{{ post.data.author | slug }}/">{{ post.data.author }}</a></small>
+				{% if post.data.time %}
+					<small>{{ post.date | readableDate }} {{ post.data.time }} with <a href="/authors/{{ post.data.author | slug }}/">{{ post.data.author }}</a></small>
+				{% endif %}
 				</time>
 			</p>
 			{% if post.data.tags %}
