@@ -6,11 +6,9 @@ section: post
 <article>
   <h1>{{ title }}</h1>
   <p>
-    <time datetime="{{ post.date | machineDate }}">
-				{% if post.data.time %}
-					<small>{{ post.date | readableDate }} {{ post.data.time }} with {{ post.data.author }}</small>
-				{% endif %}
-		</time>
+    {% if post.data.when %}
+					<small>{{ post.data.when }} with {{ post.data.author }}</small>
+    {% endif %}
   </p>
 
   {{ layoutContent | safe }}

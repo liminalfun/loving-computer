@@ -1,8 +1,7 @@
 ---
 title: time management that doesn't suck
-date: 2020-09-17
-time: 3:00-4:30pm EDT
-author: Alex
+when: september 17 at 3:00-4:30pm EDT
+author: alex
 summary: anticapitalist and trauma-informed time management concepts and practices
 tags:
   - workshop

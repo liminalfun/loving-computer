@@ -7,13 +7,14 @@
 @font-face {
 	font-family: "archivo";
 	src: url("/_includes/assets/fonts/Archivo-Medium.woff") format("woff"),
-	src: url("/_includes/assets/fonts/Archivo-Medium.woff2") format("woff2"),
+		 url("/_includes/assets/fonts/Archivo-Medium.woff2") format("woff2");
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
 
 :root {
 	--primary: white;
-	--secondary: gray;
-	--background: #4c95db;
+	--background: #fd79d7;
 	--hilighter: rgb(236, 255, 66);
 
 	--titlesize: 5em;
@@ -69,10 +70,10 @@ body {
 	min-height: 100%;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
-	background-image: url("/static/img/FreeThemAll.0.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 }
+
 body:after {
 	content:"";
     position: fixed;
@@ -82,11 +83,11 @@ body:after {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url("static/img/noise.gif");
+    background-image: url("/static/img/noise.gif");
     background-position: 50% 50%;
     background-size: cover;
     z-index: 20;
-	opacity: .08;
+	opacity: .1;
 	pointer-events:none
 }
 
@@ -101,7 +102,10 @@ code {
 	line-height: 1.5;
 }
 
-a[href],
+header a, header a:visited {
+	color: inherit;
+}
+
 a[href]:visited {
 	color: inherit;
 }
@@ -150,11 +154,13 @@ pre {
 
 /* Typography */
 
-h1, h2, h3 {
-	font-family: 'Fira Mono';
-	font-weight: 400;
-
-	background-color: black;
+h1, h2, h3  {
+	font-family: 'Fira Mono', monospace;
+	font-weight: 500;
+}
+h1, h2 {
+	background-color: var(--hilighter);
+	color: black;
 	padding: 7px;
 	display: inline-block;
 }
@@ -163,6 +169,9 @@ h2 {
 	font-size: var(--h2);
 }
 
+p a {
+	color: var(--hilighter);
+}
 
 /* Header Logo (style as h2) */
 header > em {
@@ -228,7 +237,7 @@ footer{
 	height: 50px;
 	overflow: hidden;
 	position: relative;
-	color: lightpink;
+	color: var(--hilighter);
 }
 
 .bounce p {
@@ -282,7 +291,7 @@ article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
 	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary);
+	border-bottom: 1px solid var(--hilighter);
 }
 
 main > section > article > * {
@@ -291,13 +300,14 @@ main > section > article > * {
 }
 
 .postslist {
-	max-width: 400px;
-	margin: auto;
+	margin: 1.5em auto;
+	height: auto;
 }
 
-.event {
-	background: rgba(0, 0, 0, .2);
-	padding: 1em;
+.postslist h3 {
+	background-color: transparent;
+	padding: 0;
+	color: var(--hilighter);
 }
 
 /* Post Tags */
@@ -311,17 +321,17 @@ a[rel="tag"]:visited {
   padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-  border: 1px solid var(--primary);
-	color: var(--primary);
+  border: 1px solid var(--hilighter);
+	color: var(--hilighter);
   border-radius: .25em;
   text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
+	border: 1px solid var(--hilighter);
+	background-color:var(--hilighter);
+	color: var(--background);
 }
 
 a[rel="tag"]:last-child {
@@ -333,8 +343,7 @@ a[rel="tag"]:last-child {
 section.grid {
     display: grid;
 	grid-template-columns: 1fr 1fr;
-    grid-gap: var(--gap-spacing);
-    align-items: center;
+	grid-gap: var(--gap-spacing);	
 }
 
 section.grid p {
@@ -376,7 +385,8 @@ button {
 }
 
 button:hover{
-	background-color: black;
+	background-color: var(--background);
+	color: var(--hilighter);
 }
 
 input,
@@ -387,15 +397,15 @@ textarea {
 button {
 	border: 1px solid var(--hilighter);
 	border-radius: 7px;
-	background-color: inherit;
-	color: var(--hilighter);
+	background-color: var(--hilighter);
+	color: var(--background);
 	cursor: pointer;
 }
 
-a:hover{
+button a:hover{
 	text-decoration: none;
-
 }
+
 
 /* Media Queries */
 

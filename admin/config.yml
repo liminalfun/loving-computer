@@ -16,8 +16,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Time", name: "time", widget: "string" }
+      - { label: "When", name: "when", widget: "string" }
       - { label: "Image", name: "image", widget: "string"}
       - label: "Post Author"
         name: "author"
@@ -36,7 +35,6 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
         name: "eleventyNavigation"
