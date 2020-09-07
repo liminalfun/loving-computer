@@ -6,9 +6,11 @@ section: post
 <article>
   <h1>{{ title }}</h1>
   <p>
-    <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
-    </small>
+    <time datetime="{{ post.date | machineDate }}">
+				{% if post.data.time %}
+					<small>{{ post.date | readableDate }} {{ post.data.time }} with {{ post.data.author }}</small>
+				{% endif %}
+		</time>
   </p>
 
   {{ layoutContent | safe }}

@@ -153,11 +153,16 @@ pre {
 h1, h2, h3 {
 	font-family: 'Fira Mono';
 	font-weight: 400;
+
+	background-color: black;
+	padding: 7px;
+	display: inline-block;
 }
 
 h2 {
 	font-size: var(--h2);
 }
+
 
 /* Header Logo (style as h2) */
 header > em {
@@ -200,6 +205,12 @@ header nav li a[href]:not(:hover) {
 
 header nav li a[data-current="current item"] {
 	color: gray;
+}
+
+/* Bullet lists */
+
+article ul li {
+	padding: .5em;
 }
 
 /* Marquee */
@@ -356,11 +367,16 @@ form label {
 input,
 textarea,
 button {
-  width: 100%;
+  width: auto;
   padding: 1em;
   margin-bottom: 1em;
 	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	font-family: "Fira Mono", monospace;
+	text-transform: uppercase;
+}
+
+button:hover{
+	background-color: black;
 }
 
 input,
@@ -369,10 +385,16 @@ textarea {
 }
 
 button {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
+	border: 1px solid var(--hilighter);
+	border-radius: 7px;
+	background-color: inherit;
+	color: var(--hilighter);
 	cursor: pointer;
+}
+
+a:hover{
+	text-decoration: none;
+
 }
 
 /* Media Queries */

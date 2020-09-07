@@ -19,7 +19,7 @@
 			<p>
 				<time datetime="{{ post.date | machineDate }}">
 				{% if post.data.time %}
-					<small>{{ post.date | readableDate }} {{ post.data.time }} with <a href="/authors/{{ post.data.author | slug }}/">{{ post.data.author }}</a></small>
+					<small>{{ post.date | readableDate }} {{ post.data.time }} with {{ post.data.author }}</small>
 				{% endif %}
 				</time>
 			</p>
