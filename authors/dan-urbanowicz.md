@@ -1,5 +1,5 @@
 ---
-name: Dan Urbanowicz
-email: dan.urbanowicz@gmail.com
-github: https://github.com/danurbanowicz
+name: Alex
+email: alexlimen@pm.me
+github: https://github.com/liminalfun
 ---
