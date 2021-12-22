@@ -2,7 +2,7 @@
 title: co-learn with me 🌱
 when: jan-march 2021, twice a month
 image: /static/img/distributed.jpg
-author: Jane Doe
+author: Alex
 summary: a space to learn digital skills together and make new friends
 tags:
   - practice space
