@@ -1,6 +1,6 @@
 ---
 title: d.e.a.r. weekly reading hour
-when: sundays 4:00-5:00pm EDT
+when: sundays 2020 4:00-5:00pm EDT
 author: alex
 summary: b.y.o.book club
 tags:
