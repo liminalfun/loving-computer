@@ -1,6 +1,6 @@
 ---
 title: co-learn with me 🌱
-when: jan-march 2021, twice a month
+when: "2nd & 4th saturdays 1-4pm, jan-march 2021, "
 image: /static/img/distributed.jpg
 author: Alex
 summary: a space to learn digital skills together and make new friends
@@ -9,14 +9,28 @@ tags:
   - co-learning
   - online
 ---
-<a href="https://airtable.com/shrkGJnQduoue7Rqa"><button> Sign Up Here</button></a>
+<a href="https://airtable.com/shrkGJnQduoue7Rqa" target="_blank"><button> Sign Up Here</button></a>
 
 This co-learning series offers a group space for independent learning and talking about independent learning. Expect activities like:
-- intro check-in w/ everyone
-- 25 minute breakout groups for silent co-working or discussion (2-3 people each)
-- optional 5 minute full-group check-ins + breakout group rotations between 25 min sessions
-- conversations around challenges and supportive resources/tools
-- invitation to a discord channel for sharing resources and organizing your own co-learn sessions
+
+* intro check-in w/ everyone
+* 25 minute breakout groups for silent co-working or discussion (2-3 people each)
+* optional 5 minute full-group check-ins + breakout group rotations between 25 min sessions
+* conversations around challenges and supportive resources/tools
+* invitation to a discord channel for sharing resources and organizing your own co-learn sessions
+
+All meetings will be held at this link: 🔗 <https://meet.jit.si/loving-computer>
+
+## Dates
+
+* January 8, 1-4pm
+* January 22, 1-4pm
+* February 12, 1-4pm
+* February 26, 1-4pm
+* March 12, 1-4pm
+* March 26, 1-4pm
+
+<a href="<https://meet.jit.si/loving-computer>" target="_blank"><button> Join current meeting</button></a>
 
 ## About the series
 
@@ -34,4 +48,6 @@ Maybe we want...accountability. Maybe we want...networking. Maybe we want...to n
 
 Let's make that happen for each other!! We deserve to feel good (especially while learning new things) 🌷
 
-<a href="https://airtable.com/shrkGJnQduoue7Rqa"><button> Sign Up Here</button></a>
+![](/static/img/distributed.jpg)
+
+<a href="https://airtable.com/shrkGJnQduoue7Rqa" target="_blank"><button> Sign Up Here</button></a>
