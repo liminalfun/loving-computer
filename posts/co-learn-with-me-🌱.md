@@ -19,7 +19,7 @@ This co-learning series offers a group space for independent learning and talkin
 * conversations around challenges and supportive resources/tools
 * invitation to a discord channel for sharing resources and organizing your own co-learn sessions
 
-All meetings will be held at this link: 🔗 <https://meet.jit.si/loving-computer>
+🔗 All meetings will be held at this link: <https://meet.jit.si/loving-computer>
 
 ## Dates
 
