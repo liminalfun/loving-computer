@@ -1,6 +1,6 @@
 ---
 title: co-learn with me 🌱
-when: "2nd & 4th saturdays 1-4pm, jan-march 2021, "
+when: jan-march 2021, 2nd & 4th saturdays, 1-4pm est
 image: /static/img/distributed.jpg
 author: Alex
 summary: a space to learn digital skills together and make new friends
