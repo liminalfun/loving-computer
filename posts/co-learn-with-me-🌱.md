@@ -19,7 +19,7 @@ This co-learning series offers a group space for independent learning and talkin
 * conversations around challenges and supportive resources/tools
 * invitation to a discord channel for sharing resources and organizing your own co-learn sessions
 
-🔗 All meetings will be held at this link: <https://meet.jit.si/loving.computer>
+🔗 All meetings will be held at this link: [](https://meet.jit.si/loving.computer)<https://us02web.zoom.us/j/88100429074?pwd=QnJpbndreFJaYWNZWklWWHNaZ3Rvdz09>
 
 ## Dates
 
@@ -30,7 +30,7 @@ This co-learning series offers a group space for independent learning and talkin
 * March 12, 1-4pm
 * March 26, 1-4pm
 
-<a href="https://meet.jit.si/loving.computer" target="_blank"><button> Join current meeting</button></a>
+<a href="https://us02web.zoom.us/j/88100429074?pwd=QnJpbndreFJaYWNZWklWWHNaZ3Rvdz09" target="_blank"><button> Join current meeting</button></a>
 
 ## About the series
 
