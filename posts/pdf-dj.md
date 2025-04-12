@@ -1,7 +1,7 @@
 ---
 title: PDF DJ 🖇
 when: 2025–
-image: /static/img/distributed.jpg
+image: /static/img/kittens-cpu.jpg
 author: Alex
 summary: bookshelf of writing that has and continues to shape me <3
 tags:
