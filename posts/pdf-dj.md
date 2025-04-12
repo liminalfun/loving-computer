@@ -27,3 +27,5 @@ tags:
 * brown, a. (2017). [Emergent Strategy: Shaping Change, Changing Worlds](https://annas-archive.org/md5/6435628423f159180bc36c5645e7da52). AK Press.
 
 more to come
+
+![](/static/img/kittens-cpu.jpg)
